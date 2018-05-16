@@ -82,12 +82,16 @@ main {
 
 .projects {
     text-align: center;
-    overflow: scroll;
+    
+}
+
+.container.tiles {
+    max-width: 100%;
 }
 
 .projects.title {
     font-size: 2em;
-    overflow: unset;
+    /*overflow: unset;*/
 }
 
 p1 img {
